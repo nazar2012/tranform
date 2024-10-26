@@ -1,0 +1,32 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition-property: transform;
+    transition-duration: 2000ms;
+}
+
+.box:hover {
+    transform: translate(200px, 200px) scale(-2) rotate(-720deg);
+}
+
+.box2 {
+    width: 100px;
+    height: 100px;
+    background-color: darkblue;
+    transition-property: transform;
+    transition-duration: 2000ms;
+}
+
+.box2:hover {
+    transform: scale(2);
+}
+
+.box3 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    transition-property: transform;
+    transition-duration: 2000ms;
+    transform: skew(20deg, 16deg);
+}
